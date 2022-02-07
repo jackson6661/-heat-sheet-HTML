@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Test-disign</title>
+   </head>
+   <body background="https://catherineasquithgallery.com/uploads/posts/2021-02/1612475356_217-p-fon-powerpoint-serii-237.jpg">
+      <center>
+	  <h1><i>Техники тест-дизайна:</i></h1>
+	  </center>
+	  <p><font size="+2"><em>1) Эквивалентное разбиение</em></font></p>
+	  <p><font size="+2">Метод эквивалентного разбиения позволяет минимизировать число тестов,</br> 
+	  не создавая сценарий для каждого возможного значения, а выбрав только<br/>
+	  одно значение из целого класса и приняв за аксиому, что для всех значе-<br/>
+	  ний в данной группе результат будет аналогичным. </font></p>
+	  <p><img src="https://lh5.googleusercontent.com/qXK0--2HrB62rNYbbKu0roGtq8IsF6pxCLv5I7C5UZYPd6Kmioz8ev_OOlQr21HBZ3qhEwwmcLNVtmkf-RicMB2N66evK07Jrd_ga7mtxTR12Bd17oruEJPqeoa-JRMQsZfV_82U" width="800" height="200"/></p><br/>
+	  <p><font size="+2"><em>2) Граничные значения</em></font></p>
+	  <p><font size="+2">Техника граничных значений основана на предположении, что большинство</br> 
+	  ошибок может возникнуть на границах эквивалентных классов. Она тесно свя-<br/>
+	  зана с  вышеописанной техникой эквивалентного разбиения, из-за чего часто<br/> 
+	  используется с ней в паре.</font></p>
+	  <p><img src="https://lh3.googleusercontent.com/fSI3ZDMenVVbPSqBqKh1TLj_07V6gwf_iIiWBcO0PMgNpRQHJlxPAIcyVhQ5NQMr8aitlSpyOK58LqRLsNJqD8ratZ03c6LjjAa11dQh5Ze-WipRCalt5oG12DMCJynEj00Fnzgr" width="800" height="200"/></p><br/>
+	  <p><font size="+2"><em>3) Таблица принятия решений</em></font></p>
+	  <p><font size="+2">Другое название метода – матрица принятия решений. Эта техника подходитдля более<br/>
+	  сложных систем, например – двухфакторной аутентификации. Предположим, чтобы вой-<br/>
+	  ти в систему, пользователю нужно ввести сначала логин и пароль, а затем еще под-<br/>
+	  твердить свою личность присланным в смс кодом. Этот метод хорош тем, что он пока-<br/>
+	  зывает сразу все возможные сценарии в форме, понятной даже неспециалисту. </font></p>
+	  <p><img src="https://lh5.googleusercontent.com/YlXU5VYh26dT9q5Cw3x3-DonXnNJeX6XVpJH9HeFsuryN9e--J1pnMp3tkllZh3GUQRkc2vg6959Vy_aICGq2ANbK2Do0itlM2xwAOHiYz0nklw-yV-m9O61jmpmAh0dUpdjR0Il" width="800" height="600"/></p><br/>
+	  <p><font size="+2"><em>4) Диаграмма состояний и переходов</em></font></p>
+	  <p><font size="+2">- это схема состояний и переходов, которая наглядно показывает, как некий объект<br/>
+	  переходит из одного состояния в другое. Такая схема позволяет нам сразу визуально<br/>
+	  оценить, какие переходы вообще возможны и что надо протестировать. Ведь нам надо<br/>
+	  протестировать и эту стрелку, и эту... Так что стрелочки — это наши готовые тест-кейсы!</font></p>
+	  <p><img src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/2ba/a5f/b9e/2baa5fb9eb8c0cfa2dcba495154dca46.png" width="900" height="500"/></p><br/>
+	  <p><font size="+2"><em>5) Попарное тестирование</em></font></p>
+	  <p><font size="+2">Суть этого метода, также известного как pairwise testing, в том, что каждое значение<br/>
+	  каждого проверяемого параметра должно быть протестировано на взаимодействие с <br/>
+	  каждым значением всех остальных параметров. После составления такой матрицы мы <br/>
+	  убираем тесты, которые дублируют друг друга, оставляя максимальное покрытие при<br/> 
+	  минимальном необходимом наборе сценариев. Попарное тестирование позволяет обна-<br/>
+	  ружить максимум ошибок без избыточных проверок.</font></p>
+	  <p><img src="https://lh5.googleusercontent.com/ozaParKfd0XLeqE7Y_AWGIszd0PdWv0r0aWMFMUaHTxdv3FLwVCgXD1H5lN4AJndEyg0CkiRG1eJVS9TngyCs2OpTgcI-1elT58Q9o710tZSKaJ2UFRlxhnZ3G6xKgpfCfMnsZ4O" width="1000" height="300"/></p><br/>
+	  <p><font size="+2"><em>6) Предугадывание ошибок</em></font></p>
+	  <p><font size="+2">Используя свои знания о системе, QA-специалист может «предугадать», при каких <br/>
+	  входных условиях есть риск ошибок. Для этого важно иметь опыт, хорошо знать про-<br/>
+	  дукт и уметь выстроить коммуникации с коллегами. <br/><br/>
+	  Например, в спецификации указано, что поле должно принимать код из четырех цифр. <br/>
+	  В числе возможных тестов:<br/>
+      -Что произойдет, если не ввести код?<br/>
+      -Что произойдет, если не ввести спецсимволы?<br/>
+      -Что произойдет, если ввести не цифры, а другие символы?<br/>
+      -Что произойдет, если ввести не четыре цифры, а другое количество?<br/>
+
+</font></p>
+	  <p><center>
+	  <font size="+2"><--</font>
+	  <font size="+2"><a href="C:\Users\Юлия\Desktop\QA-testing\Обучающий материал\HTML\Page 3.html"> Пред </a></font> 
+	  <!--font size="+2"><---</font-->
+	  <!--font size="+2"><a href="C:\Users\Юлия\Desktop\QA-testing\Обучающий материал\HTML\Page 5.html">След </a></font-->
+	  </center></p>
+   </body>
+</html>
